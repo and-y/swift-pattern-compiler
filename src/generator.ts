@@ -9,7 +9,7 @@ import {
     INodeSign,
     ISwiftLineObject,
     ISwiftObject,
-} from "../src/interfaces";
+} from "./interfaces";
 
 /**
  * The object generator takes an ast object and returns a swift object.
