@@ -28,5 +28,9 @@
     "tslint": "^5.11.0",
     "typescript": "^3.1.6"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/and-y/swift-pattern-compiler"
+  }
 }
