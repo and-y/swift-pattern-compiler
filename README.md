@@ -75,4 +75,4 @@ console.log(patternObj);
 
 ## Inspiration
 
-The structure is highly inspired by the great talk of [James Kyles on EmberConf 2016 - How to Build a Compiler](https://www.youtube.com/watch?v=Tar4WgAfMr4&t=1s) and the code example, which can be found [here on github](https://git.io/compiler).
+The structure of the compiler is highly inspired by the great talk of [James Kyles on EmberConf 2016 - How to Build a Compiler](https://www.youtube.com/watch?v=Tar4WgAfMr4&t=1s) and the code example, which can be found [here on github](https://git.io/compiler).
