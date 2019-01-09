@@ -1,6 +1,6 @@
 {
   "name": "swift-pattern-compiler",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A compiler which transforms SWIFT patterns to an object representation with additional information's.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
