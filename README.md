@@ -11,9 +11,9 @@ npm install --save swift-pattern-compiler
 ## Usage
 
 ```javascript
-const swiftCompiler = require("./compiler").compiler;
+const spc = require("./swift-pattern-compiler").compiler;
 const pattern = ":4!c/[8c]/24x"
-const patternObj = swiftCompiler(pattern);
+const patternObj = spc(pattern);
 console.log(patternObj);
 
 /*
