@@ -1,0 +1,28 @@
+{
+    "extends": "tslint:recommended",
+    "rules": {
+        "max-line-length": [
+            true,
+            {
+                "limit": 80,
+                "ignore-pattern": "^\\s*throw |^export {(.*?)} |/.*?/"
+            }
+        ],
+        "new-parens": true,
+        "no-arg": true,
+        "no-bitwise": true,
+        "no-conditional-assignment": true,
+        "no-consecutive-blank-lines": true,
+        "arrow-parens": false,
+        "no-empty": false,
+        "object-literal-sort-keys": false,
+        "one-line": false
+    },
+    "jsRules": {
+        "max-line-length": {
+            "options": [
+                80
+            ]
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "swiftpatterncompiler",
+  "version": "1.0.0",
+  "description": "A compiler which transforms SWIFT patterns to an object representation with additional information's.",
+  "main": "compiler.js",
+  "engines": {
+    "node": ">=11.2.0"
+  },
+  "scripts": {
+    "build": "tsc -p .",
+    "build:clean": "rm -rf ./build && npm run build",
+    "test": "ts-node node_modules/tape/bin/tape test/**/*.spec.ts | tap-diff",
+    "tsc": "tsc"
+  },
+  "keywords": [
+    "compiler",
+    "SWIFT"
+  ],
+  "author": "Andreas Fertsch-Röver",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^10.12.10",
+    "@types/tape": "^4.2.32",
+    "tap-diff": "^0.1.1",
+    "tape": "^4.9.1",
+    "ts-node": "^7.0.1",
+    "tslint": "^5.11.0",
+    "typescript": "^3.1.6"
+  },
+  "dependencies": {}
+}
