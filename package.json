@@ -9,7 +9,8 @@
   },
   "scripts": {
     "build": "tsc -p .",
-    "build:clean": "rm -rf ./build && npm run build",
+    "build:clean": "rm -rf ./dist && npm run build",
+    "publish": "rm -rf ./dist && npm run build && npm publish",
     "test": "ts-node node_modules/tape/bin/tape test/**/*.spec.ts | tap-diff",
     "tsc": "tsc"
   },
