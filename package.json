@@ -25,7 +25,7 @@
     "tap-diff": "^0.1.1",
     "tape": "^4.11.0",
     "ts-node": "^8.3.0",
-    "tslint": "^5.11.0",
+    "tslint": "^5.19.0",
     "typescript": "^3.6.2"
   },
   "dependencies": {}
